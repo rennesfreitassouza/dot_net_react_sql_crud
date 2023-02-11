@@ -1,26 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+react18-crud-demo/node_modules
+react18-crud-demo/.pnp
+react18-crud-demo/.pnp.js
 
 # testing
-/coverage
+react18-crud-demo/coverage
 
 # production
-/build
+react18-crud-demo/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+react18-crud-demo/.DS_Store
+react18-crud-demo/.env.local
+react18-crud-demo/.env.development.local
+react18-crud-demo/.env.test.local
+react18-crud-demo/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 #.NET bin folder
-/bin
+ReactAPI.Demo/bin
