@@ -34,4 +34,4 @@ Executar o SQL Server Management Studio como administrador, se conectar ao Datab
   - `npm i`
   - `npm start`
 
-Dessa forma, todas as operações do CRUD poderão ser testadas em sua máquina por meio da página que foi aberta em seu navegador.
+Dessa forma, todas as operações do CRUD poderão ser testadas em sua máquina por meio das páginas que foram abertas em seu navegador.
