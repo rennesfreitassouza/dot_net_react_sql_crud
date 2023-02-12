@@ -19,7 +19,7 @@ function AddSuperVillain() {
             powers: powers.current.value,
             imageURL: imgUrl.current.value
           }
-        axios.post("http://localhost:5024/SuperVillain", payload)
+        axios.post("https://localhost:7208/SuperVillain", payload)
         .then((response) => {
             navigate("/");
         })

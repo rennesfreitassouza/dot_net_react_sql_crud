@@ -15,7 +15,7 @@ function AllSuperVillain() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get("http://localhost:5024/SuperVillain")
+        axios.get("https://localhost:7208/SuperVillain")
             .then((response) => {
                 setSuperVillains((existingData) => {
                     return response.data;
@@ -34,7 +34,7 @@ function AllSuperVillain() {
     }
 
     function deleteConfirmHandler(){
-        axios.delete(`http://localhost:5024/SuperVillain/${itemToDelete}`)
+        axios.delete(`https://localhost:7208/SuperVillain/${itemToDelete}`)
         .then((response) => {
             setSuperVillains((existingData) => {
                 return existingData.filter(_ => _.id !== itemToDelete);

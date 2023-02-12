@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\administradorR\\Documents\\SMARAPD\\dot_net_react_sql_crud\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {}
+    "C:\\Users\\adminR\\Downloads\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\administradorR\\Documents\\SMARAPD\\dot_net_react_sql_crud\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {
+    "C:\\Users\\adminR\\Downloads\\ReactAPI.Demo\\ReactAPI.Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\administradorR\\Documents\\SMARAPD\\dot_net_react_sql_crud\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
+        "projectUniqueName": "C:\\Users\\adminR\\Downloads\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
         "projectName": "ReactAPI.Demo",
-        "projectPath": "C:\\Users\\administradorR\\Documents\\SMARAPD\\dot_net_react_sql_crud\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
-        "packagesPath": "C:\\Users\\administradorR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\administradorR\\Documents\\SMARAPD\\dot_net_react_sql_crud\\ReactAPI.Demo\\obj\\",
+        "projectPath": "C:\\Users\\adminR\\Downloads\\ReactAPI.Demo\\ReactAPI.Demo.csproj",
+        "packagesPath": "C:\\Users\\adminR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adminR\\Downloads\\ReactAPI.Demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\administradorR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adminR\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\invare\\retaguarda-infra-data-library": {},
-          "C:\\invare\\retaguarda-library": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -39,13 +35,9 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
@@ -56,7 +48,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -78,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

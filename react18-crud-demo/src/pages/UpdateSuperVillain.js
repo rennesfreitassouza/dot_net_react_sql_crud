@@ -17,7 +17,7 @@ function UpdateSuperVillain() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get(`http://localhost:5024/SuperVillain/${id}`)
+        axios.get(`https://localhost:7208/SuperVillain/${id}`)
             .then((response) => {
                 superVillainName.current.value = response.data.villainName;
                 franchise.current.value = response.data.franchise;
@@ -35,7 +35,7 @@ function UpdateSuperVillain() {
             imageURL: imgUrl.current.value,
             id:id
           }
-        axios.put("http://localhost:5024/SuperVillain/", payload)
+        axios.put("https://localhost:7208/SuperVillain/", payload)
         .then((response) => {
             navigate("/");
         });

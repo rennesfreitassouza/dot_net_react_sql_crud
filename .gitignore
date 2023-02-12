@@ -24,5 +24,4 @@ yarn-error.log*
 
 #.NET bin folder
 ReactAPI.Demo/bin
-ReactAPI.Demo/obj
 
