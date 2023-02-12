@@ -23,7 +23,7 @@ Executar o SQL Server Management Studio como administrador, se conectar ao Datab
 
   - `cd ReactAPI.Demo`
 
-  - `dotnet add package Microsoft.EntityFrameworkCore --version 6.0`
+  - `dotnet add package Microsoft.EntityFrameworkCore --version 6.0.8`
 
   - `dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.8`
 
